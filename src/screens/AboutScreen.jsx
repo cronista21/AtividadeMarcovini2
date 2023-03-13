@@ -11,9 +11,8 @@ export default function AboutScreen( navigation ) {
       <Button
         mode="contained"
         onPress={() => {
-          navigation.navigate("ContactScreen");
-        }}
-        >
+          navigation.navigate(ContactScreen)
+          }}>
         Conheça o contato
       </Button>
     </View>
